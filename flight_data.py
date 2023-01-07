@@ -5,7 +5,7 @@ class FlightData:
     # This class is responsible for structuring the flight data.
     def __init__(self):
         self.location_api = 'https://api.tequila.kiwi.com/locations/query'
-        self.tequila_api_key = 'wpZf6A2jtJmw-su_0jV8FEr2Egy563tF'
+        self.tequila_api_key = API_KEY
 
         self.location_header = {
             'apikey': self.tequila_api_key,
