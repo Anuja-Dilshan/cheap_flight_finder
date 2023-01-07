@@ -11,7 +11,7 @@ class DataManager:
     def __init__(self):
         self.city_list = ''
         self.sheety_api = 'https://api.sheety.co/534704e14519d386a9d81a1f131dd383/flightDetails/sheet1'
-        self.bearer_token = 'Bearer dfgdfg45eergfdsfw4r3r23dwedwer34'
+        self.bearer_token = AUTHORIZATION_TOKEN(if available)
         self.sheety_headers = {
             "Content-Type": "application/json",
             'Authorization': self.bearer_token
